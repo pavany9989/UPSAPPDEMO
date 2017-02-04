@@ -89,6 +89,7 @@ under the License.
    |-->
   <proxies>
   
+  <!--
   
   <proxy>
         <id>Pavan</id>
@@ -100,7 +101,7 @@ under the License.
         <port>8080</port>
         <nonProxyHosts>localhost</nonProxyHosts>
     </proxy>
-  
+  -->
   
   
     <!-- proxy
@@ -124,6 +125,14 @@ under the License.
    | Authentication profiles can be used whenever maven must make a connection to a remote server.
    |-->
   <servers>
+  
+  
+  <server>
+<id>nexus</id>
+<username>admin</username>
+<password>admin123</password>
+</server>
+  
     <!-- server
      | Specifies the authentication information to use when connecting to a particular server, identified by
      | a unique name within the system (referred to by the 'id' attribute below).
@@ -147,6 +156,7 @@ under the License.
     -->
   </servers>
 
+
   <!-- mirrors
    | This is a list of mirrors to be used in downloading artifacts from remote repositories.
    |
@@ -161,12 +171,13 @@ under the License.
   <mirrors>
   
   
-  
- <mirror>
-  <id>ibiblio.org</id>
-  <url>http://mirrors.ibiblio.org/maven2</url>
-  <mirrorOf>central</mirrorOf>
-</mirror> 
+  <mirror>
+<id>nexus</id>
+<mirrorOf>*</mirrorOf>
+<name>iNexus repository</name>
+<url>http://192.168.89.98:8081/repository/maven-public/</url>
+</mirror>
+ 
   
     <!-- mirror
      | Specifies a repository mirror site to use instead of a given repository. The repository that

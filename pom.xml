@@ -17,6 +17,20 @@
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
 
+<distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Releases</name>
+            <url>http://192.168.89.98:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Snapshots</name>
+            <url>http://192.168.89.98:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
 	<dependencies>
 
 		<!-- Unit Test -->
