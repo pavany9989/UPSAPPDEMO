@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="3.0.1" sequence="0" timestamp="1486100983371" analysisTimestamp="1486101126285" release="">
+<BugCollection version="3.0.1" sequence="0" timestamp="1486393153039" analysisTimestamp="1486393369707" release="">
   <Project projectName="CounterWebApp Maven Webapp">
     <Jar>C:\Users\VDW7QYM\workspace\CounterWebApp\target\classes</Jar>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\codehaus\mojo\findbugs-maven-plugin\3.0.4\findbugs-maven-plugin-3.0.4.jar</AuxClasspathEntry>
@@ -72,8 +72,6 @@
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\codehaus\plexus\plexus-resources\1.0-alpha-7\plexus-resources-1.0-alpha-7.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\junit\junit\4.11\junit-4.11.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\springframework\spring-core\4.1.1.RELEASE\spring-core-4.1.1.RELEASE.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.5\jcl-over-slf4j-1.7.5.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar</AuxClasspathEntry>
@@ -87,6 +85,45 @@
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\springframework\spring-webmvc\4.1.1.RELEASE\spring-webmvc-4.1.1.RELEASE.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\springframework\spring-expression\4.1.1.RELEASE\spring-expression-4.1.1.RELEASE.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\apache\httpcomponents\httpcore\4.4\httpcore-4.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\VDW7QYM\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar</AuxClasspathEntry>
   </Project>
   <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" rank="17" abbrev="ST" category="STYLE" instanceHash="4ec1eec9a3ec673b4a44ef431ecffd17" instanceOccurrenceNum="0" instanceOccurrenceMax="0">
     <ShortMessage>Write to static field from instance method</ShortMessage>
@@ -151,8 +188,53 @@ and generally bad practice.
   <BugCode abbrev="ST">
     <Description>Misuse of static fields</Description>
   </BugCode>
-  <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Fri, 3 Feb 2017 00:49:43 -0500" total_classes="2" referenced_classes="20" total_bugs="2" total_size="25" num_packages="1" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="5.09" clock_seconds="1.12" peak_mbytes="168.40" alloc_mbytes="487.00" gc_seconds="0.01" priority_2="2">
+  <Errors errors="2" missingClasses="0">
+    <Error>
+      <ErrorMessage>Cannot open codebase filesystem:C:\Users\VDW7QYM\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar</ErrorMessage>
+      <Exception>java.util.zip.ZipException: invalid LOC header (bad signature)</Exception>
+      <StackTrace>java.util.zip.ZipFile.read(Native Method)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile.access$1400(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.InflaterInputStream.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.fill(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.readLine(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.readLine(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Attributes.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest.&lt;init&gt;(Unknown Source)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.scanJarManifestForClassPathEntries(ClassPathBuilder.java:752)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.processWorkList(ClassPathBuilder.java:627)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.build(ClassPathBuilder.java:226)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildClassPath(FindBugs2.java:677)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:218)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Cannot open codebase filesystem:C:\Users\VDW7QYM\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar</ErrorMessage>
+      <Exception>java.util.zip.ZipException: invalid LOC header (bad signature)</Exception>
+      <StackTrace>java.util.zip.ZipFile.read(Native Method)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile.access$1400(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)</StackTrace>
+      <StackTrace>java.util.zip.InflaterInputStream.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.fill(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.readLine(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest$FastInputStream.readLine(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Attributes.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest.read(Unknown Source)</StackTrace>
+      <StackTrace>java.util.jar.Manifest.&lt;init&gt;(Unknown Source)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.scanJarManifestForClassPathEntries(ClassPathBuilder.java:752)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.processWorkList(ClassPathBuilder.java:627)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.ClassPathBuilder.build(ClassPathBuilder.java:226)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildClassPath(FindBugs2.java:677)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:218)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)</StackTrace>
+    </Error>
+  </Errors>
+  <FindBugsSummary timestamp="Mon, 6 Feb 2017 09:59:13 -0500" total_classes="2" referenced_classes="20" total_bugs="2" total_size="25" num_packages="1" java_version="1.8.0_121" vm_version="25.121-b13" cpu_seconds="5.38" clock_seconds="1.17" peak_mbytes="168.46" alloc_mbytes="487.00" gc_seconds="0.02" priority_2="2">
     <FileStats path="com/mkyong/controller/App.java" bugCount="0" size="6"/>
     <FileStats path="com/mkyong/controller/BaseController.java" bugCount="2" size="19" bugHash="d205eca9c155a604f64fcc7e6d7bbd7b"/>
     <PackageStats package="com.mkyong.controller" total_bugs="2" total_types="2" total_size="25" priority_2="2">
@@ -160,18 +242,19 @@ and generally bad practice.
       <ClassStats class="com.mkyong.controller.BaseController" sourceFile="BaseController.java" interface="false" size="19" bugs="2" priority_2="2"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="156" invocations="353" avgMicrosecondsPerInvocation="443" maxMicrosecondsPerInvocation="13984" standardDeviationMircosecondsPerInvocation="1028"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="142" invocations="355" avgMicrosecondsPerInvocation="400" maxMicrosecondsPerInvocation="10906" standardDeviationMircosecondsPerInvocation="579"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="47" invocations="20" avgMicrosecondsPerInvocation="2379" maxMicrosecondsPerInvocation="14676" standardDeviationMircosecondsPerInvocation="3661"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="35" invocations="6" avgMicrosecondsPerInvocation="5919" maxMicrosecondsPerInvocation="32300" standardDeviationMircosecondsPerInvocation="11822"/>
-      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="33" invocations="70" avgMicrosecondsPerInvocation="474" maxMicrosecondsPerInvocation="4014" standardDeviationMircosecondsPerInvocation="662"/>
-      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="31" invocations="320" avgMicrosecondsPerInvocation="98" maxMicrosecondsPerInvocation="1485" standardDeviationMircosecondsPerInvocation="194"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="27" invocations="20" avgMicrosecondsPerInvocation="1351" maxMicrosecondsPerInvocation="5973" standardDeviationMircosecondsPerInvocation="1694"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="26" invocations="39" avgMicrosecondsPerInvocation="669" maxMicrosecondsPerInvocation="15036" standardDeviationMircosecondsPerInvocation="2388"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="17" invocations="20" avgMicrosecondsPerInvocation="857" maxMicrosecondsPerInvocation="10868" standardDeviationMircosecondsPerInvocation="2352"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="16" invocations="20" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="4018" standardDeviationMircosecondsPerInvocation="1221"/>
-      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="14" invocations="20" avgMicrosecondsPerInvocation="720" maxMicrosecondsPerInvocation="5335" standardDeviationMircosecondsPerInvocation="1206"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="12" invocations="102" avgMicrosecondsPerInvocation="123" maxMicrosecondsPerInvocation="600" standardDeviationMircosecondsPerInvocation="64"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="163" invocations="353" avgMicrosecondsPerInvocation="461" maxMicrosecondsPerInvocation="13046" standardDeviationMircosecondsPerInvocation="1059"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="143" invocations="355" avgMicrosecondsPerInvocation="404" maxMicrosecondsPerInvocation="780" standardDeviationMircosecondsPerInvocation="166"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="47" invocations="20" avgMicrosecondsPerInvocation="2368" maxMicrosecondsPerInvocation="13591" standardDeviationMircosecondsPerInvocation="3434"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="33" invocations="70" avgMicrosecondsPerInvocation="480" maxMicrosecondsPerInvocation="3769" standardDeviationMircosecondsPerInvocation="622"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="31" invocations="6" avgMicrosecondsPerInvocation="5174" maxMicrosecondsPerInvocation="27405" standardDeviationMircosecondsPerInvocation="9978"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="29" invocations="321" avgMicrosecondsPerInvocation="91" maxMicrosecondsPerInvocation="1493" standardDeviationMircosecondsPerInvocation="160"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="29" invocations="20" avgMicrosecondsPerInvocation="1458" maxMicrosecondsPerInvocation="6514" standardDeviationMircosecondsPerInvocation="1769"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="23" invocations="39" avgMicrosecondsPerInvocation="593" maxMicrosecondsPerInvocation="11938" standardDeviationMircosecondsPerInvocation="1911"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="17" invocations="20" avgMicrosecondsPerInvocation="857" maxMicrosecondsPerInvocation="6198" standardDeviationMircosecondsPerInvocation="1414"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="16" invocations="139" avgMicrosecondsPerInvocation="120" maxMicrosecondsPerInvocation="331" standardDeviationMircosecondsPerInvocation="63"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="16" invocations="20" avgMicrosecondsPerInvocation="814" maxMicrosecondsPerInvocation="3355" standardDeviationMircosecondsPerInvocation="1113"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="16" invocations="20" avgMicrosecondsPerInvocation="809" maxMicrosecondsPerInvocation="9600" standardDeviationMircosecondsPerInvocation="2070"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="14" invocations="20" avgMicrosecondsPerInvocation="712" maxMicrosecondsPerInvocation="3633" standardDeviationMircosecondsPerInvocation="979"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>

@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MAX.SeleniumTests" hash-for-method="max">max</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MAX.SeleniumHQ" hash-for-method="testEasy">testEasy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="MAX.SeleniumHQJUNIT" hash-for-method="valid_UserCredential">valid_UserCredential</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -120,14 +125,29 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MAX.SeleniumTests</span>
+              <span class="class-name">MAX.SeleniumHQ</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="max">
-                  </a> <!-- max -->
-                  <span class="method-name">max</span>
+                  <a name="testEasy">
+                  </a> <!-- testEasy -->
+                  <span class="method-name">testEasy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MAX.SeleniumHQJUNIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="valid_UserCredential">
+                  </a> <!-- valid_UserCredential -->
+                  <span class="method-name">valid_UserCredential</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -144,7 +164,9 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MAX.SeleniumTests&quot;/&gt;
+      &lt;class name=&quot;MAX.AppTest&quot;/&gt;
+      &lt;class name=&quot;MAX.SeleniumHQ&quot;/&gt;
+      &lt;class name=&quot;MAX.SeleniumHQJUNIT&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -158,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,16 +206,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'max')
-data.setCell(0, 2, 'MAX.SeleniumTests')
-data.setCell(0, 3, 2152);
+data.setCell(0, 1, 'testEasy')
+data.setCell(0, 2, 'MAX.SeleniumHQ')
+data.setCell(0, 3, 99701);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'valid_UserCredential')
+data.setCell(1, 2, 'MAX.SeleniumHQJUNIT')
+data.setCell(1, 3, 26897);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -219,18 +245,36 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">MAX.SeleniumTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">MAX.SeleniumHQ</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">max</span>
-                <span class="method-start">2132 ms</span>
+                <span class="method-name">testEasy</span>
+                <span class="method-start">2126 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MAX.SeleniumHQJUNIT</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">101832 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">valid_UserCredential</span>
+                <span class="method-start">102948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">129846 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MAX.SeleniumHQ</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">4287 ms</span>
+                <span class="method-start">130883 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

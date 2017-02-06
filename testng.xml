@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="MAX.SeleniumTests"/>
+      <class name="MAX.AppTest"/>
+      <class name="MAX.SeleniumHQ"/>
+      <class name="MAX.SeleniumHQJUNIT"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
