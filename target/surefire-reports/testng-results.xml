@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="132017" started-at="2017-02-06T15:16:37Z" finished-at="2017-02-06T15:18:49Z">
+  <suite name="Suite" duration-ms="30274" started-at="2017-02-07T06:27:38Z" finished-at="2017-02-07T06:28:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="132017" started-at="2017-02-06T15:16:37Z" finished-at="2017-02-06T15:18:49Z">
+    <test name="Test" duration-ms="30274" started-at="2017-02-07T06:27:38Z" finished-at="2017-02-07T06:28:08Z">
       <class name="MAX.SeleniumHQ">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="beforeTest" is-config="true" duration-ms="2645" started-at="2017-02-06T10:16:37Z" finished-at="2017-02-06T10:16:39Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="beforeTest" is-config="true" duration-ms="2989" started-at="2017-02-07T01:27:38Z" finished-at="2017-02-07T01:27:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="testEasy" duration-ms="58195" started-at="2017-02-06T10:16:39Z" finished-at="2017-02-06T10:17:38Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="testEasy" duration-ms="10233" started-at="2017-02-07T01:27:41Z" finished-at="2017-02-07T01:27:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="afterTest" is-config="true" duration-ms="1328" started-at="2017-02-06T10:18:47Z" finished-at="2017-02-06T10:18:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:MAX.SeleniumHQ@215be6bb]" name="afterTest" is-config="true" duration-ms="1251" started-at="2017-02-07T01:28:07Z" finished-at="2017-02-07T01:28:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- MAX.SeleniumHQ -->
       <class name="MAX.SeleniumHQJUNIT">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="openBrowser" is-config="true" duration-ms="1622" started-at="2017-02-06T10:17:38Z" finished-at="2017-02-06T10:17:39Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="openBrowser" is-config="true" duration-ms="1582" started-at="2017-02-07T01:27:51Z" finished-at="2017-02-07T01:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="valid_UserCredential" duration-ms="66900" started-at="2017-02-06T10:17:39Z" finished-at="2017-02-06T10:18:46Z">
+        <test-method status="PASS" signature="valid_UserCredential()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="valid_UserCredential" duration-ms="12971" started-at="2017-02-07T01:27:53Z" finished-at="2017-02-07T01:28:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- valid_UserCredential -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="closeBrowser" is-config="true" duration-ms="1317" started-at="2017-02-06T10:18:46Z" finished-at="2017-02-06T10:18:47Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:MAX.SeleniumHQJUNIT@396a51ab]" name="closeBrowser" is-config="true" duration-ms="1241" started-at="2017-02-07T01:28:06Z" finished-at="2017-02-07T01:28:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

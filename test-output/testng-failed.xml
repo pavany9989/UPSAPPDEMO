@@ -5,6 +5,7 @@
     <classes>
       <class name="MAX.SeleniumHQ">
         <methods>
+          <include name="testEasy"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
